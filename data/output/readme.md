@@ -1,0 +1,3 @@
+ToDo: Include in this file a quick description of the input data and how it was obtained
+
+Actual files in this folder: Due to size restrictions, not all data can be added to GitHub but will be added to Zenodo or Dryad. Still, please include in this folder some sample data (full files or sample mock file if data restricted by licese). At minimum, include some sample data that can be used for an example.

@@ -1,0 +1,1 @@
+ToDo: Delete this file and use the folder for the code corresponding to an end-user app (e.g., flask app, it could be a proof-of-concept or an interface to use the back-end code/services). If not used, delete the folder.
