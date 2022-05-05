@@ -2,24 +2,23 @@
 from bs4 import BeautifulSoup
 import os
 import requests
- 
-def getIds(document_path):
-    # Reading the data inside the xml
-    # file to a variable under the name
-    # data
+
+ # Reading the data inside the xml file located in document_path
+ # and store it in the beutifulsoup parser 
+def openXML(document_path):
     with open(document_path, 'r') as f:
         data = f.read()
-    
+
     # Passing the stored data inside
     # the beautifulsoup parser, storing
     # the returned object
-    Bs_data = BeautifulSoup(data, "xml")
+    return BeautifulSoup(data, "xml")
+
+# Extract the PumMed and PumMed Central ids from an XML file
+# located in document_path
+def getIds(document_path):
     
-    # Finding all instances of tag
-    # `unique`
-    #b_unique = Bs_data.find_all('infon')
-    
-    #print(b_unique)
+    Bs_data = openXML(document_path)
     
     # Using find() to extract attributes
     # of the first instance of the tag
@@ -29,8 +28,9 @@ def getIds(document_path):
     print("pm_id",pm_id.text)
 
     return pmc_id.text,pm_id.text
-    
-
+  
+# Extract the Mesh terms of an article 
+# Using an specif PubMed central id 
 def getMeshTerms(ids):
     pmc_id = ids[0]
     pm_id = ids[1]
@@ -52,20 +52,42 @@ def getMeshTerms(ids):
     
     return MeshList    
 
+def writeMeshTerms(document_path,end_path,MeshList):
+
+    bs_data = openXML(document_path)
+
+    for elem in MeshList:
+        print(elem[0])
+        bs_data.find('collection').insert(0,elem[0])
+    
+    # Output the contents of the
+    # modified xml file
+    print(bs_data.prettify())
+    file_name = document_path.split("\\")[4]
+    print(file_name)
+    f = open(end_path + file_name, "w")
+    f.write(bs_data.prettify())
+    f.close()
+
+    return 0
+
 #ids = getIds("D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small\\PMC100320.xml")
 
-directory = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small"
+directory_base = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small"
  
+directory_destiny = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small_meshterms\\"
+
 i = 0
 
 # iterate over files in
 # that directory
-for filename in os.listdir(directory):
+for filename in os.listdir(directory_base):
     i+=1
-    if i == 20:
+    if i == 2:
         break
-    f = os.path.join(directory, filename)
+    f = os.path.join(directory_base, filename)
     # checking if it is a file
     if os.path.isfile(f):
         MeshList = getMeshTerms(getIds(f))
+        writeMeshTerms(f,directory_destiny,MeshList)
     
