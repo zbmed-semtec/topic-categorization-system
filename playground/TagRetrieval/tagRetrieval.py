@@ -2,6 +2,8 @@
 from bs4 import BeautifulSoup
 import os
 import requests
+import time
+from threading import Thread
 
  # Reading the data inside the xml file located in document_path
  # and store it in the beutifulsoup parser 
@@ -71,23 +73,45 @@ def writeMeshTerms(document_path,end_path,MeshList):
 
     return 0
 
+directory_base = "C:\\Users\\sleep\\Desktop\\PDG\\Datasets"
+files_list = ["PMC000XXXXX_xml_unicode", "PMC030XXXXX_xml_unicode", "PMC035XXXXX_xml_unicode", "PMC040XXXXX_xml_unicode", "PMC045XXXXX_xml_unicode", "PMC050XXXXX_xml_unicode", "PMC055XXXXX_xml_unicode",
+                "PMC060XXXXX_xml_unicode", "PMC065XXXXX_xml_unicode", "PMC070XXXXX_xml_unicode", "PMC075XXXXX_xml_unicode", "PMC080XXXXX_xml_unicode", "PMC085XXXXX_xml_unicode", "PMC090XXXXX_xml_unicode"]
+directory_destiny = "C:\\Users\\sleep\\Desktop\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_meshterms\\"
+
+class Tagger(Thread):
+    def __init__(self, file):
+        super(Tagger,self).__init__()
+        self.file = file
+
+    def run(self):
+        MeshList = getMeshTerms(getIds(self.file))
+        writeMeshTerms(self.file,directory_destiny,MeshList)
+
 #ids = getIds("D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small\\PMC100320.xml")
 
-directory_base = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small"
- 
-directory_destiny = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small_meshterms\\"
+if __name__ == '__main__':
+    #i = 0
+    # iterate over files in
+    # that directory
+    my_threads = []
+    for filename in os.listdir(directory_base):
+        #i+=1
+        #if i == 2:
+        #    break
 
-i = 0
-
-# iterate over files in
-# that directory
-for filename in os.listdir(directory_base):
-    i+=1
-    if i == 2:
-        break
-    f = os.path.join(directory_base, filename)
-    # checking if it is a file
-    if os.path.isfile(f):
-        MeshList = getMeshTerms(getIds(f))
-        writeMeshTerms(f,directory_destiny,MeshList)
+        f = os.path.join(directory_base, filename)
+        # checking if it is a file
+        if os.path.isfile(f):
+            if len(my_threads) < 5:
+                new_thread = Tagger(f)
+                new_thread.start()
+                my_threads.append(new_thread)
+            else:
+                while len(my_threads) == 5:
+                    time.sleep(10)
+                    my_threads = [thread for thread in my_threads if thread.is_alive()]
+                new_thread = Tagger(f)
+                new_thread.start()
+                my_threads.append(new_thread)
+            
     
