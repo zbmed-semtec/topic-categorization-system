@@ -9,7 +9,7 @@ def printTree(base,space):
 		str_out = ""
 		for i in range(space):
 			str_out+="--"
-		print(str_out, child.tag, child.attrib)
+		print(str_out, child.tag, child.attrib, child.text)
 		printTree(child,space+1)
 
 tree = ET.parse('D:\PDG\Datasets\PMC000XXXXX_xml_unicode_small\PMC100320.xml')
@@ -34,7 +34,7 @@ print(root[0].attrib)
 
 #printTree(root,0)
 #Found the configuration where i could find the pmcid  
-printTree(root[3][2],0)
+printTree(root[3][7],0)
 
 #for i in range(5):
 #	print(root[3][i].tag, root[3][i].attrib)
