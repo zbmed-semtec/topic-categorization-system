@@ -5,8 +5,8 @@
 
 #Reference for the code: https://www.geeksforgeeks.org/reading-and-writing-xml-files-in-python/
 from bs4 import BeautifulSoup
-import os
 import requests
+
 
 
 '''
@@ -22,18 +22,15 @@ def openXML(document_path):
     
     return BeautifulSoup(data, "xml")
 
-#
 
 '''
     Function to extract the PubMed and PubMed Central ids from an XML file located in document_path.
 
-    Input:  document_path ->  The path of the input xml file.
+    Input:  Bs_data ->  A BeutifulSoup parser with the information of the xml file.
     Output: A list of two strings containing the PumMed Central id and the Pubmed id of the article.
 '''
 
-def getIds(document_path):
-    
-    Bs_data = openXML(document_path)
+def getIds(Bs_data):
     
     # Using find() to extract attributes of the first instance of the tag
     pmc_id = Bs_data.find('infon', {'key':'article-id_pmc'})
@@ -42,6 +39,7 @@ def getIds(document_path):
     #print("pm_id",pm_id.text)
 
     return pmc_id.text,pm_id.text
+  
   
 
 '''
@@ -94,24 +92,3 @@ def writeMeshTerms(document_path,end_path,MeshList):
     f.close()
 
     return 0
-
-
-
-'''
-Test of the execution of the above functions.
-'''
-directory_origin = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small"
-directory_destiny = "D:\\PDG\\Datasets\\PMC000XXXXX_xml_unicode_small_meshterms\\"
-i = 0
-
-# iterate over files in
-# that directory
-for filename in os.listdir(directory_origin):
-    f = os.path.join(directory_origin, filename)
-    # checking if it is a file
-    if os.path.isfile(f):
-        MeshList = getMeshTerms(getIds(f))
-        if(len(MeshList)>0):
-            writeMeshTerms(f,directory_destiny,MeshList)
-
-    

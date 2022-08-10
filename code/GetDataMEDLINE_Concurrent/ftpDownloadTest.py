@@ -1,5 +1,3 @@
-#ftp.ncbi.nlm.nih.gov/pub/wilbur/BioC-PMC/
-
 import shutil
 import time
 import urllib.request as request
