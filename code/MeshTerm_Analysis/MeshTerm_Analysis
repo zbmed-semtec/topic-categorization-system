@@ -1,0 +1,15 @@
+from rdflib import Graph
+graph = Graph()
+
+print("--- Reading Data ---")
+graph.parse('.\data\Mesh_datasets\MESH_small.ttl', format='ttl')
+
+print("--- printing raw triples ---")
+i = 0
+for elem in graph:
+    print(elem)
+    print()
+    i+=1
+    if(i==10):
+        break
+
