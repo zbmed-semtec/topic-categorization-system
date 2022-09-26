@@ -90,7 +90,7 @@ def getMeshTerms(Bs_data):
     Mesh_terms = []
     
     for elem in Bs_data.find('collection').find_all('DescriptorName'):
-        Mesh_terms.append(elem.text.strip()+";")
+        Mesh_terms.append(elem.attrs["UI"].strip()+";")
 
     if(len(Mesh_terms) == 0):
         Mesh_terms.append('x')
@@ -131,8 +131,8 @@ def process_multiple_xml(directory_origin = "D:\PDG\Datasets\PMC000XXXXX_xml_uni
                 df.loc[art_id] = [PMID[1],Title,Abstract,MeshTerms]
                 art_id+=1
             
-    print(df)
-    print(df_errors)
+    #print(df)
+    #print(df_errors)
     df.to_csv(directory_destiny+"\\Dataset.tsv", sep="\t")
     df.to_csv(directory_destiny+"\\Dataset_errors.tsv", sep="\t")
 
@@ -152,6 +152,6 @@ def test_individual_xml():
     df.to_csv(test_file_destiny, sep="\t")
 
 
-start_time = time.time()
+#start_time = time.time()
 process_multiple_xml()
 #print("--- %s seconds ---" % (time.time() - start_time))

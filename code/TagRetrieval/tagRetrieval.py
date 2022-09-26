@@ -52,6 +52,7 @@ def getIds(Bs_data):
 def getMeshTerms(ids):
     pmc_id = ids[0]
     pm_id = ids[1]
+    #We can retrieve multiple pubmed-id at the same time, check this
     r = requests.get("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id="+pm_id+"&retmode=xml")
     xmltxt = r.content
 
@@ -72,6 +73,7 @@ def getMeshTerms(ids):
 
     Input:  document_path ->  The path of the input xml file.
             end_path ->  The path where the output xml files will be stored.
+            MeshList -> A list of strings containing the MeshTerms asociated with the Pubmed central id of the article.
     Output: A written xml-file with the new Mesh terms added to it.
 '''
 def writeMeshTerms(document_path,end_path,MeshList):

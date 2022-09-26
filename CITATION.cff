@@ -2,7 +2,9 @@ cff-version: 1.2.0
 title: this-repo
 abstract: description
 authors:
-  - name: Add your name here and supervisors, Dietrich Rebholz-Schuhmann, Leyla Jael Garcia Castro
+  - name: Nelson David Quiñones, Cesar Canales, Javier Torres, Dietrich Rebholz-Schuhmann, Leyla Jael Garcia Castro
 date-released:
 license: "https://Add link to license"
 repository-code: "https://URL for this repo"
+
+# https://github.com/NCBI-Hackathons/PuRSSE

@@ -3,3 +3,7 @@ lxml
 requests
 pandas
 rdflib
+owlready2
+biopython
+nltk
+lxml
