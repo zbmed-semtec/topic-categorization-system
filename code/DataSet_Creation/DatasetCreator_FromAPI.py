@@ -1,4 +1,5 @@
 from distutils.log import error
+from numpy import record
 import pandas as pd
 from pdb import Restart
 import Bio
@@ -130,6 +131,41 @@ def process_article(summaries,i,temp,temp_errors):
 # =============================================================================
 
 '''
+    API information to make queries to the BioC API.
+'''
+Entrez.email = "nelsonquinones2424@gmail.com"
+Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
+
+'''
+    Function to bring Pubmed ids from articles since 2015 to 2022.
+
+    Input:  start-> The article count from which the Query starts to retrieve the articles.
+            size -> The amount of articles to retrieve in one query.
+
+    Output: A list with Pubmed ids and metadata about the query.
+'''
+
+def getPubmedIds(start, size):
+    handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = start, Retmax = size)
+    records = Entrez.read(handle)
+    handle.close()
+    return records
+
+
+'''
+    Function to bring articles information from Pubmed ids.
+
+    Input:  records-> A list of pubmed ids.
+
+    Output: A dictionary with information like title,abstract, meshterms, etc; from the articles with the given Pubmed Ids.
+'''
+def getArticlesData(records):
+    handle = Entrez.efetch(db="pubmed",id = ",".join(records['IdList']), retmode="xml")
+    summaries = Entrez.read(handle)
+    handle.close()
+    return summaries
+
+'''
     Function to download all the Pubmed titles and abstracts from articles since 2015 to 2022
 
     Input:  
@@ -137,39 +173,34 @@ def process_article(summaries,i,temp,temp_errors):
 '''
 
 def download():
-    for xx in range(3,15):
+    for xx in range(1,15):
 
         df_errors = pd.DataFrame(columns=["PMID"])
         errors_id = 0
 
-        test_file_destiny = "D:\\PDG\\topic-categorization-system\\data\\output"
+        test_file_destiny = "data\\output\\"
         df = pd.DataFrame(columns =  ["PMID", "Title/Abstract", "MeshTerms"])
         
+        return_start = 5000000
+        query_batch_size = 100
+        batch_size = 100
 
-        query_batch_size = 1000
-        batch_size = 100000
-        article_cnt = 5000000+(xx*batch_size)
+        article_cnt = return_start+((xx-1)*batch_size)
         thread_size = 5
-        #dataset_size = 9294491
-        #dataset_size = article_cnt+ batch_size
-        dataset_size = 5000000+((xx+1)*batch_size)
+        dataset_size = return_start+((xx)*batch_size)
         
+        print(article_cnt,dataset_size)
 
         while article_cnt< dataset_size:
             #Get PubMed all pubmed ids from 2015 to today
-            Entrez.email = "nelsonquinones2424@gmail.com"
-            Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
-            handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = article_cnt, Retmax = query_batch_size)
-            records = Entrez.read(handle)
-            handle.close()
+            
+            records = getPubmedIds(article_cnt,query_batch_size)
 
             article_cnt = article_cnt+query_batch_size
             
             #print(",".join(records['IdList']))
-            handle = Entrez.efetch(db="pubmed",id = ",".join(records['IdList']), retmode="xml")
-            summaries = Entrez.read(handle)
-            handle.close()
 
+            summaries = getArticlesData(records['IdList'])
 
             my_threads = []
 
@@ -178,22 +209,23 @@ def download():
             
 
             for i in range(query_batch_size):
+                #Process sequential
+                process_article(summaries,i,temp,temp_errors)
                 
-                #process_article(summaries,i,temp,temp_errors)
-                
-                if len(my_threads) < thread_size:
-                    #print("This is f: ",f)
-                    new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
-                    new_thread.start()
-                    my_threads.append(new_thread)
-                else:
-                    while len(my_threads) == thread_size:
-                        #print(f)
-                        time.sleep(0.1)
-                        my_threads = [thread for thread in my_threads if thread.is_alive()]
-                    new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
-                    new_thread.start()
-                    my_threads.append(new_thread)
+                # Process in parallel
+                # if len(my_threads) < thread_size:
+                #     #print("This is f: ",f)
+                #     new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
+                #     new_thread.start()
+                #     my_threads.append(new_thread)
+                # else:
+                #     while len(my_threads) == thread_size:
+                #         #print(f)
+                #         #time.sleep(0.1)
+                #         my_threads = [thread for thread in my_threads if thread.is_alive()]
+                #     new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
+                #     new_thread.start()
+                #     my_threads.append(new_thread)
             
 
 
@@ -208,9 +240,11 @@ def download():
             
 
                 
-        time.sleep(5)
+        #time.sleep(0.5)
         print(df.head())
         print(batch_size,thread_size)
+        df.reset_index()
+        df_errors.reset_index()
         df.to_csv(test_file_destiny+"\\Dataset_"+str(dataset_size)+"_.tsv", sep="\t")
         df_errors.to_csv(test_file_destiny+"\\Dataset_errors_"+str(dataset_size)+"_.tsv", sep="\t")
 
