@@ -228,7 +228,7 @@ def download():
         
         return_start = 5000000
         query_batch_size = 100
-        batch_size = 100
+        batch_size = 100000
 
         article_cnt = return_start+((xx-1)*batch_size)
         thread_size = 5
