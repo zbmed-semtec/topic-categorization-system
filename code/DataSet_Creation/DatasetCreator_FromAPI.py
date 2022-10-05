@@ -86,6 +86,7 @@ def process_article(summaries,i,temp,temp_errors):
     major_topics_cnt = 0
     try:
         #print("Start ",i)
+        id = summaries["PubmedArticle"][i]["MedlineCitation"]["PMID"]
         raw_text = "".join(summaries["PubmedArticle"][i]["MedlineCitation"]["Article"]["Abstract"]["AbstractText"])
         raw_text = summaries["PubmedArticle"][i]["MedlineCitation"]["Article"]["ArticleTitle"].join(raw_text)
         clean_text = clean(raw_text)
@@ -109,7 +110,7 @@ def process_article(summaries,i,temp,temp_errors):
         if(major_topics_cnt == 0):
             raise Exception("No Mesh_terms available")
 
-        temp.append([summaries["PubmedArticle"][i]["MedlineCitation"]["PMID"],clean_text,keywords_string])
+        temp.append([id,clean_text,keywords_string])
         #print("End ",i)
         #print()
     except Exception as e:
@@ -136,77 +137,82 @@ def process_article(summaries,i,temp,temp_errors):
 '''
 
 def download():
-    df_errors = pd.DataFrame(columns=["PMID"])
-    errors_id = 0
+    for xx in range(3,15):
 
-    test_file_destiny = "D:\\PDG\\topic-categorization-system\\data\\output"
-    df = pd.DataFrame(columns =  ["PMID", "Title/Abstract", "MeshTerms"])
-    
+        df_errors = pd.DataFrame(columns=["PMID"])
+        errors_id = 0
 
-    article_cnt = 1000000
-    batch_size = 100
-    thread_size = 5
-    #dataset_size = 9294491
-    dataset_size = article_cnt+200
-    
-    
-
-    while article_cnt< dataset_size:
-        #Get PubMed all pubmed ids from 2015 to today
-        Entrez.email = "nelsonquinones2424@gmail.com"
-        Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
-        handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = article_cnt, Retmax = batch_size)
-        records = Entrez.read(handle)
-        handle.close()
-
-        article_cnt = article_cnt+batch_size
-        
-        #print(",".join(records['IdList']))
-        handle = Entrez.efetch(db="pubmed",id = ",".join(records['IdList']), retmode="xml")
-        summaries = Entrez.read(handle)
-        handle.close()
-
-
-        my_threads = []
-
-        temp = []
-        temp_errors = {"PMID":[]}
+        test_file_destiny = "D:\\PDG\\topic-categorization-system\\data\\output"
+        df = pd.DataFrame(columns =  ["PMID", "Title/Abstract", "MeshTerms"])
         
 
-        for i in range(batch_size):
+        query_batch_size = 1000
+        batch_size = 100000
+        article_cnt = 5000000+(xx*batch_size)
+        thread_size = 5
+        #dataset_size = 9294491
+        #dataset_size = article_cnt+ batch_size
+        dataset_size = 5000000+((xx+1)*batch_size)
+        
+
+        while article_cnt< dataset_size:
+            #Get PubMed all pubmed ids from 2015 to today
+            Entrez.email = "nelsonquinones2424@gmail.com"
+            Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
+            handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = article_cnt, Retmax = query_batch_size)
+            records = Entrez.read(handle)
+            handle.close()
+
+            article_cnt = article_cnt+query_batch_size
             
-            #process_article(summaries,i,temp,temp_errors)
+            #print(",".join(records['IdList']))
+            handle = Entrez.efetch(db="pubmed",id = ",".join(records['IdList']), retmode="xml")
+            summaries = Entrez.read(handle)
+            handle.close()
+
+
+            my_threads = []
+
+            temp = []
+            temp_errors = {"PMID":[]}
             
-            if len(my_threads) < thread_size:
-                #print("This is f: ",f)
-                new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
-                new_thread.start()
-                my_threads.append(new_thread)
-            else:
-                while len(my_threads) == thread_size:
-                    #print(f)
-                    time.sleep(0.1)
-                    my_threads = [thread for thread in my_threads if thread.is_alive()]
-                new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
-                new_thread.start()
-                my_threads.append(new_thread)
-        
 
-        temp_df = pd.DataFrame(temp,columns =  ["PMID","Title/Abstract", "MeshTerms"])
-        temp_df_error = pd.DataFrame(temp_errors)
-
-        df = pd.concat([df,temp_df])
-        df_errors = pd.concat([df,temp_df_error])
-        
-        print(article_cnt)
-        
-
+            for i in range(query_batch_size):
+                
+                #process_article(summaries,i,temp,temp_errors)
+                
+                if len(my_threads) < thread_size:
+                    #print("This is f: ",f)
+                    new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
+                    new_thread.start()
+                    my_threads.append(new_thread)
+                else:
+                    while len(my_threads) == thread_size:
+                        #print(f)
+                        time.sleep(0.1)
+                        my_threads = [thread for thread in my_threads if thread.is_alive()]
+                    new_thread = Thread(target=process_article, args=(summaries,i,temp,temp_errors))
+                    new_thread.start()
+                    my_threads.append(new_thread)
             
-    time.sleep(5)
-    print(df.head())
-    print(batch_size,thread_size)
-    df.to_csv(test_file_destiny+"\\Dataset.tsv", sep="\t")
-    df_errors.to_csv(test_file_destiny+"\\Dataset_errors.tsv", sep="\t")
+
+
+
+            temp_df = pd.DataFrame(temp,columns =  ["PMID","Title/Abstract", "MeshTerms"])
+            temp_df_error = pd.DataFrame(temp_errors)
+
+            df = pd.concat([df,temp_df])
+            df_errors = pd.concat([df,temp_df_error])
+            
+            print(article_cnt)
+            
+
+                
+        time.sleep(5)
+        print(df.head())
+        print(batch_size,thread_size)
+        df.to_csv(test_file_destiny+"\\Dataset_"+str(dataset_size)+"_.tsv", sep="\t")
+        df_errors.to_csv(test_file_destiny+"\\Dataset_errors_"+str(dataset_size)+"_.tsv", sep="\t")
 
 start_time = time.time()
 download()
