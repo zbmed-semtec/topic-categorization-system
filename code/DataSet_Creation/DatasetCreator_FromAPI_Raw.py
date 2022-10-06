@@ -218,15 +218,15 @@ def getArticlesData(id_List):
 '''
 
 def download():
-    for xx in range(1,15):
+    for xx in range(1,7):
 
-        df_errors = pd.DataFrame(columns=["PMID"])
+        df_errors = pd.DataFrame(columns=["PMID","Reason"])
         errors_id = 0
 
         test_file_destiny = "data\\output\\"
         df = pd.DataFrame(columns =  ["PMID", "Title/Abstract", "MeshTerms"])
         
-        return_start = 5000000
+        return_start = 6700000
         query_batch_size = 100
         batch_size = 100000
 
@@ -280,7 +280,7 @@ def download():
             temp_df_error = pd.DataFrame(temp_errors, columns =  ["PMID","Reason"])
 
             df = pd.concat([df,temp_df])
-            df_errors = pd.concat([df,temp_df_error])
+            df_errors = pd.concat([df_errors,temp_df_error])
             
             print(article_cnt)
             
