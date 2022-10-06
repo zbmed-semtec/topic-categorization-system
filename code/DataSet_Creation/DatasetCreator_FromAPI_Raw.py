@@ -223,7 +223,7 @@ def download():
         df_errors = pd.DataFrame(columns=["PMID","Reason"])
         errors_id = 0
 
-        test_file_destiny = "data\\output\\"
+        test_file_destiny = "data\\phase1\\"
         df = pd.DataFrame(columns =  ["PMID", "Title/Abstract", "MeshTerms"])
         
         return_start = 6700000
