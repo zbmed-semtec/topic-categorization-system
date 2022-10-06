@@ -173,7 +173,8 @@ def process_article(articleInfo_xml,temp,temp_errors):
 # Functions to download the data of the Pubmed articles 
 # =============================================================================
 
-
+Entrez.email = "nelsonquinones2424@gmail.com"
+Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
 
 '''
     Function to bring Pubmed ids from articles since 2015 to 2022.
@@ -185,11 +186,19 @@ def process_article(articleInfo_xml,temp,temp_errors):
 '''
 
 def getPubmedIds(start, size):
-    Entrez.email = "nelsonquinones2424@gmail.com"
-    Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
-    handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = start, Retmax = size)
-    id_List = Entrez.read(handle)
-    handle.close()
+    can = False
+    id_List = []
+    while can == False:
+        try:
+            can = True
+            handle = Entrez.esearch(db="pubmed",term = "2015/3/1:2022/4/30[Publication Date]",retmode="xml",retstart = start, Retmax = size)
+            id_List = Entrez.read(handle)
+            handle.close()
+        except Exception as e:
+            can = False
+            time.sleep(0.5)
+            print(e)
+
     return id_List
 
 
@@ -201,12 +210,19 @@ def getPubmedIds(start, size):
     Output: A List with the information of the Pubmed articles in a XML parser.
 '''
 def getArticlesData(id_List):
-    Entrez.email = "nelsonquinones2424@gmail.com"
-    Entrez.api_key = "abd474bb98c9241472b3642237940f709307"
-    handle = Entrez.efetch(db="pubmed",id = ",".join(id_List), retmode="xml")
-    articles_List_raw = handle.read()
-    
-    Bs_data = BeautifulSoup(articles_List_raw, "xml")
+    can = False
+    Bs_data = None
+    while can == False:
+        try:
+            can = True
+            handle = Entrez.efetch(db="pubmed",id = ",".join(id_List), retmode="xml")
+            articles_List_raw = handle.read()
+            
+            Bs_data = BeautifulSoup(articles_List_raw, "xml")
+        except Exception as e:
+            time.sleep(0.5)
+            can = False
+            print(e)
 
     return Bs_data.find("PubmedArticleSet")
 
