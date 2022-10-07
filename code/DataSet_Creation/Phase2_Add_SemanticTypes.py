@@ -30,7 +30,9 @@ def add_SemanticTypes(df,dic_MeshToSemantic):
 '''
     Function to process multiple Dataframes to enrich them with semantic types  
 
-    Input:  path -> A folder with all the fragments of datasets
+    Input:  path_in -> A folder with all the fragments of datasets
+            path_out -> The folder where all the augmented fragments are going to be stored
+            
     Output: A series of tsv files with 4 columns  "PMID", "Title/Abstract", "MeshTerms", "SemanticTypes"
 '''
 

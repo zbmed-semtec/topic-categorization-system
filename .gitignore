@@ -113,9 +113,7 @@ env.bak/
 venv.bak/
 
 #Datasets
-
-data/
-.data
+*.tsv
 
 # Spyder project settings
 .spyderproject
