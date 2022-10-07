@@ -1,4 +1,5 @@
 import os
+import time
 import pandas as pd
 
 
@@ -20,7 +21,7 @@ def add_SemanticTypes(df,dic_MeshToSemantic):
             for semantic in dic_MeshToSemantic[mesh]:
                 semantic_list.add(semantic)
         semanticTypes = ";".join(semantic_list)
-        print(semanticTypes)
+        #print(semanticTypes)
         df_out.loc[len(df_out)] = [df['PMID'][ind], df['Title/Abstract'][ind],df['MeshTerms'][ind],semanticTypes]
     
 
@@ -49,10 +50,11 @@ def process_articles(path_in,path_out):
             df = pd.read_csv(path_in+"//"+filename,sep='\t')
             df = df.reset_index()
             df_out = add_SemanticTypes(df,dic_MeshToSemantic)
-            df_out.to_csv(path_out +"//"+filename.split('.')[0] + "_2.tsv")
+            df_out.to_csv(path_out +"//"+filename.split('.')[0] + "_2.tsv",sep="\t")
             print(df_out.head())
         if(i == 0): break
             
 
-
+start_time = time.time()
 process_articles("data//phase1","data//phase2")
+print("--- %s seconds ---" % (time.time() - start_time))
