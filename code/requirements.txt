@@ -1,9 +1,11 @@
 beautifulsoup4
 lxml
 requests
-pandas
+numpy
+cython
 rdflib
 owlready2
 biopython
 nltk
-lxml
+SciPy
+pandas
