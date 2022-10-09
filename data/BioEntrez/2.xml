@@ -1,0 +1,563 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416728
+  </PMID>
+  <DateRevised>
+   <Year>
+    2020
+   </Year>
+   <Month>
+    09
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Print">
+   <Journal>
+    <ISSN IssnType="Print">
+     2050-3369
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      7
+     </Volume>
+     <Issue>
+      3
+     </Issue>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Aug
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Arrhythmia &amp; electrophysiology review
+    </Title>
+    <ISOAbbreviation>
+     Arrhythm Electrophysiol Rev
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Practical Guide to Ablation for Epicardial Ventricular Tachycardia: When to Get Access, How to Deal with Anticoagulation and How to Prevent Complications.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     159-164
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.15420/aer.2018.10.2
+   </ELocationID>
+   <Abstract>
+    <AbstractText>
+     Epicardial ablation is needed to eliminate ventricular tachycardia (VT) in some patients with nonischaemic cardiomyopathy. The 12-lead electrocardiogram of VT, pre-procedural imaging and endocardial unipolar voltage maps can predict a high likelihood of epicardial substrate and VT. A septal VT substrate may preclude the need for epicardial access and mapping and can be identified with imaging, pacing and voltage mapping. Pericardial access is usually obtained prior to systemic anticoagulation or after reversal of systemic anticoagulation. A unique set of complications can be encountered with epicardial access, mapping and ablation, which include haemopericardium, phrenic nerve injury, damage to major coronary arteries and pericarditis. Anticipating, preventing and, if necessary, managing these complications are paramount for patient safety. Best practices are reviewed.
+    </AbstractText>
+   </Abstract>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Kumareswaran
+     </LastName>
+     <ForeName>
+      Ramanan
+     </ForeName>
+     <Initials>
+      R
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Cardiac Electrophysiology Section, Cardiovascular Division, Hospital of the University of Pennsylvania, Philadelphia Pennsylvania, USA.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+    <Author ValidYN="Y">
+     <LastName>
+      Marchlinski
+     </LastName>
+     <ForeName>
+      Francis E
+     </ForeName>
+     <Initials>
+      FE
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Cardiac Electrophysiology Section, Cardiovascular Division, Hospital of the University of Pennsylvania, Philadelphia Pennsylvania, USA.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016428">
+     Journal Article
+    </PublicationType>
+    <PublicationType UI="D016454">
+     Review
+    </PublicationType>
+   </PublicationTypeList>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Arrhythm Electrophysiol Rev
+   </MedlineTA>
+   <NlmUniqueID>
+    101637930
+   </NlmUniqueID>
+   <ISSNLinking>
+    2050-3369
+   </ISSNLinking>
+  </MedlineJournalInfo>
+  <KeywordList Owner="NOTNLM">
+   <Keyword MajorTopicYN="N">
+    Ventricular tachycardia
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    complications of ventricular tachycardia ablation
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    electrocardiogram
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    epicardial ablation
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    voltage mapping
+   </Keyword>
+  </KeywordList>
+  <CoiStatement>
+   Disclosure: The authors have no conflicts of interest to declare.
+  </CoiStatement>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   ppublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416728
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.15420/aer.2018.10.2
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6141948
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     Circulation. 2004 Sep 7;110(10):1197-201
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15337702
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2008 Jun;5(6 Suppl):S73-5
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      18456208
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2015 Dec;8(6):1413-21
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      26546346
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Europace. 2013 Feb;15(2):284-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23002196
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2016 Jul 14;375(2):111-21
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27149033
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 2018 Mar;29(3):421-434
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29316012
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2011 Feb;4(1):49-55
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      21131557
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2012 Jun;9(6):865-73
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      22306618
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2015 Sep;12(9):1997-2007
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      26031376
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2013 Dec;6(6):1123-30
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      24106241
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2011 Jan;8(1):76-83
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20933099
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 1996 Jun;7(6):531-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      8743758
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     JAMA. 2006 Jan 11;295(2):165-71
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      16403928
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 2017 May;28(5):504-514
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28233951
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2015 Feb;8(1):241-2
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25691560
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Pacing Clin Electrophysiol. 2002 Oct;25(10):1488-95
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      12418747
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Pacing Clin Electrophysiol. 2018 Feb;41(2):214-217
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28842979
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Am Coll Cardiol. 2009 Aug 25;54(9):799-808
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19695457
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2013 Apr;10(4):490-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23246598
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Int J Cardiol. 2016 Nov 1;222:57-61
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27454616
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 2018 Apr;29(4):603-608
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29356207
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2009 Jan;6(1):59-64
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19121801
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 2015 Jan;26(1):42-50
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25257774
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Cardiovasc Electrophysiol. 2007 Nov;18(11):1178-83
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      17887979
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2017 Nov;10(11):null
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29133379
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2009 Jun;6(6):886-933
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19467519
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2010 Feb;3(1):63-71
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20008307
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2003 Aug 12;108(6):704-10
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      12885746
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2009 Jul;6(7):957-61
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19560084
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2013 Feb;10(2):165-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23059131
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2016 Oct;9(10):null
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27733494
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2015 Apr;8(2):337-43
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25637596
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2009 Aug 4;120(5):366-75
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19620503
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circ Arrhythm Electrophysiol. 2011 Apr;4(2):185-94
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      21270104
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2004 Apr 20;109(15):1842-7
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15078793
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>

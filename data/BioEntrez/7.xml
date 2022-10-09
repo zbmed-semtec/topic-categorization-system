@@ -1,0 +1,482 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416723
+  </PMID>
+  <DateRevised>
+   <Year>
+    2022
+   </Year>
+   <Month>
+    03
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Electronic-eCollection">
+   <Journal>
+    <ISSN IssnType="Print">
+     2049-0801
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      36
+     </Volume>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Dec
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Annals of medicine and surgery (2012)
+    </Title>
+    <ISOAbbreviation>
+     Ann Med Surg (Lond)
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Association between Entamoeba histolytica infection and human leukocyte antigen HLA- DRB1.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     71-74
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.1016/j.amsu.2018.10.019
+   </ELocationID>
+   <Abstract>
+    <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">
+     <i>
+      Entamoeba histolytica
+     </i>
+     is the parasitic amoeba which caused amebiasis in human and responsible of 100,000 deaths every year. There is currently no vaccine against this parasite. The innate and adaptive immunity are important in protection against infection.
+    </AbstractText>
+    <AbstractText Label="AIM OF THE STUDY" NlmCategory="OBJECTIVE">
+     To investigate the association between HLA-DRB1 and
+     <i>
+      Entamoeba histolytica
+     </i>
+     infection.
+    </AbstractText>
+    <AbstractText Label="PATIENTS AND METHODS" NlmCategory="METHODS">
+     The study is a case-controlled consisted from thirty Iraqi Arab Muslims patients with
+     <i>
+      Entamoeba histolytica
+     </i>
+     infection. The patients were consulted medical city and AL-Karama hospital for the period between May 2016 till February 2017. The control groups were sex and age matched with patient study group, they were consisted of thirty Iraqi Arab Muslims healthy individuals. HLA-DRB1 was done by SSOP method.
+    </AbstractText>
+    <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+     A total of 30 patients with
+     <i>
+      Entamoeba histolytica
+     </i>
+     infection were participated in this study. Their ages were range from 21 to 55 years. Males were 83.3% and the rest were females. The other is 30 control group was sex and age matched with patient study group. There was an increased frequency of HLADRB1*03:0101 and *11:0101 in patients group compared to control group (P = 0.002, Odds ratio = 7.42, 95% CI:2.07 to 26.55) and (P = 0.01, Odd ratio = 4.29, 95% CI: 1.41 to 13.06) respectively.
+    </AbstractText>
+    <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">
+     HLA-DRB1*03:0101 and HLA-DRB1*110,101 may have a role in susceptibility to amebiasis.
+    </AbstractText>
+   </Abstract>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Al-Khaliq
+     </LastName>
+     <ForeName>
+      Israa Mohammad Abd
+     </ForeName>
+     <Initials>
+      IMA
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Al-Kindy College of Medicine, University of Baghdad, Iraq.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+    <Author ValidYN="Y">
+     <LastName>
+      Mahdi
+     </LastName>
+     <ForeName>
+      Batool Mutar
+     </ForeName>
+     <Initials>
+      BM
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Al-Kindy College of Medicine, University of Baghdad, Iraq.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016428">
+     Journal Article
+    </PublicationType>
+   </PublicationTypeList>
+   <ArticleDate DateType="Electronic">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     18
+    </Day>
+   </ArticleDate>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Ann Med Surg (Lond)
+   </MedlineTA>
+   <NlmUniqueID>
+    101616869
+   </NlmUniqueID>
+   <ISSNLinking>
+    2049-0801
+   </ISSNLinking>
+  </MedlineJournalInfo>
+  <KeywordList Owner="NOTNLM">
+   <Keyword MajorTopicYN="N">
+    Amebiasis
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    Entamoeba histolytica
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    HLA
+   </Keyword>
+  </KeywordList>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="received">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     03
+    </Month>
+    <Day>
+     17
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="revised">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     06
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="accepted">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     11
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   epublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416723
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.1016/j.amsu.2018.10.019
+   </ArticleId>
+   <ArticleId IdType="pii">
+    S2049-0801(18)30227-9
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6215996
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     Braz J Infect Dis. 2006 Apr;10(2):122-31
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      16878264
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Infect Dis. 2004 Feb 1;189(3):520-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      14745711
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     MBio. 2017 Oct 3;8(5):
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28974617
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Proc Natl Acad Sci U S A. 2008 Sep 30;105(39):15064-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      18806221
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2003 Apr 17;348(16):1565-73
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      12700377
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Parasite Immunol. 1996 Oct;18(10):491-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      9226686
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Med Genet. 1987 Nov;24(11):649-58
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      3323517
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Clin Med Res. 2015 Jun;7(6):435-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25883706
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Infect Immun. 1989 Jul;57(7):2179-86
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      2543634
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Parasite Immunol. 1987 Nov;9(6):757-60
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      2893327
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Infect Immun. 1998 Jun;66(6):2980-3
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      9596776
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Int J Surg. 2017 Oct;46:198-202
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28890409
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Arch Med Res. 1997;28 Spec No:248-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      9033089
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     MBio. 2014 Nov 04;5(6):e01817
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25370489
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Parasitol Res. 1999 Oct;85(10):833-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10494810
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Exp Parasitol. 2010 Nov;126(3):366-80
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20303955
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Proc Natl Acad Sci U S A. 2006 Jun 13;103(24):9298-303
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      16754877
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Trans R Soc Trop Med Hyg. 1984;78(1):64-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      6200968
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Infect Dis. 1993 Nov;168(5):1319-22
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      8228372
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     PLoS Pathog. 2017 Aug 17;13(8):e1006513
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28817707
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Parasite Epidemiol Control. 2018 Feb 18;3(2):63-76
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29774300
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>
