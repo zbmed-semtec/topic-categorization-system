@@ -119,7 +119,6 @@ def process_articles_concurrent(path_in,path_out):
         if filename.split('.')[-1] == "tsv":
             dataset_List.append({"filename":filename,"path_in":path_in,"path_out":path_out})
             i+=1
-            if(i == 8): break
     
     pool = mp.Pool(4, initializer= init_pool, initargs = (dic_MeshToSemantic,))
 

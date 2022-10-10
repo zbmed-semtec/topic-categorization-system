@@ -1,1 +1,0 @@
-In this folder there are files related to the understaindg of Mesh terms and Semantic types, as well as their relation.
