@@ -1,0 +1,404 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416724
+  </PMID>
+  <DateRevised>
+   <Year>
+    2022
+   </Year>
+   <Month>
+    03
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Electronic-eCollection">
+   <Journal>
+    <ISSN IssnType="Print">
+     2049-0801
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      36
+     </Volume>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Dec
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Annals of medicine and surgery (2012)
+    </Title>
+    <ISOAbbreviation>
+     Ann Med Surg (Lond)
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Plasma d-dimer level correlated with advanced breast carcinoma in female patients.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     75-78
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.1016/j.amsu.2018.10.025
+   </ELocationID>
+   <Abstract>
+    <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">
+     Advanced breast cancer is a common disease among female in the world. There is a correlation between cancer and hyper coagulation. In a cancer state, there is an increase in the level of cross-linked fibrin degradation product (d-dimer)which indicates systemic activation of fibrinolysis and hemostasis. So, there is a relation between increase d-dimer value and advanced breast disease.
+    </AbstractText>
+    <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">
+     To confirm the relation between increase d-dimer levels and advanced breast carcinoma in female patients.
+    </AbstractText>
+    <AbstractText Label="PATIENTS AND METHODS" NlmCategory="METHODS">
+     A prospective study (cohort study) done in Baghdad teaching hospital (department of surgery) from Jan 2014 to Jan 2016. Seventy patients were categorized intotwo equal groups, group 1 with breast carcinoma, group 2 with benign breast tumor. Plasma d-dimer levels compared for each group, and in relation to (tumor size, stage, grade, lympho-vascular invasion, and lymph nodes involvement).
+    </AbstractText>
+    <AbstractText Label="RESULTS" NlmCategory="RESULTS">
+     D-dimer level was normal in group two (&lt;0.25) mg/l and high in group one in other words, d-dimer level was increasing in advanced breast carcinoma group with enlarge tumor size, high stage, grade, lympho-vascular invasion and lymph nodes involvement.
+    </AbstractText>
+    <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">
+     Plasma d-dimer levels was good prognostic factor in breast carcinoma specially in advanced breast carcinoma and its considered factor clinical stage progression lympho-vascular invasion and metastasis.
+    </AbstractText>
+   </Abstract>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Ghadhban
+     </LastName>
+     <ForeName>
+      Basim Rassam
+     </ForeName>
+     <Initials>
+      BR
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       College of Medicine, Baghdad University, Baghdad Teaching Hospital/ Department of Surgery, Iraq.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016428">
+     Journal Article
+    </PublicationType>
+   </PublicationTypeList>
+   <ArticleDate DateType="Electronic">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     26
+    </Day>
+   </ArticleDate>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Ann Med Surg (Lond)
+   </MedlineTA>
+   <NlmUniqueID>
+    101616869
+   </NlmUniqueID>
+   <ISSNLinking>
+    2049-0801
+   </ISSNLinking>
+  </MedlineJournalInfo>
+  <KeywordList Owner="NOTNLM">
+   <Keyword MajorTopicYN="N">
+    Advanced breast cancer
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    D-dimer level
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    Hyper coagulation
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    Metastasis
+   </Keyword>
+  </KeywordList>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="received">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     09
+    </Month>
+    <Day>
+     14
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="revised">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     16
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="accepted">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     18
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   epublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416724
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.1016/j.amsu.2018.10.025
+   </ArticleId>
+   <ArticleId IdType="pii">
+    S2049-0801(18)30234-6
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6215958
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     Eur J Surg Oncol. 2013 Sep;39(9):951-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23810331
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     JAMA. 2004 Sep 1;292(9):1064-73
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15339900
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Haematologica. 2013 Sep;98(9):1476-80
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23645692
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Cancer Lett. 1999 Nov 1;146(1):61-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10656610
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     CA Cancer J Clin. 2005 Mar-Apr;55(2):74-108
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15761078
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Asian Pac J Cancer Prev. 2014;15(1):117-22
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      24528011
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Am J Pathol. 1995 May;146(5):1029-39
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      7538264
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Breast Cancer Res Treat. 2008 Feb;107(3):309-30
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      17377838
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     CA Cancer J Clin. 2015 Jan-Feb;65(1):5-29
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25559415
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Dig Liver Dis. 2001 Oct;33(7):546-50
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      11816542
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Haemostasis. 1997 May-Jun;27(3):112-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      9306127
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Br J Cancer. 2002 Feb 1;86(3):389-95
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      11875705
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Magy Onkol. 2013 Mar;57(1):56-62
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23573523
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Clin Oncol. 2000 Feb;18(3):600-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10653875
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Clin Pathol. 2010 Sep;63(9):818-22
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20671046
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Semin Thromb Hemost. 1999;25(2):173-82
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10357085
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>

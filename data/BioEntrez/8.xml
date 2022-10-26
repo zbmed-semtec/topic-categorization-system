@@ -1,0 +1,448 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416722
+  </PMID>
+  <DateRevised>
+   <Year>
+    2020
+   </Year>
+   <Month>
+    09
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Electronic-eCollection">
+   <Journal>
+    <ISSN IssnType="Electronic">
+     2047-7538
+    </ISSN>
+    <JournalIssue CitedMedium="Internet">
+     <Volume>
+      7
+     </Volume>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Light, science &amp; applications
+    </Title>
+    <ISOAbbreviation>
+     Light Sci Appl
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    More than two decades trapped.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     86
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.1038/s41377-018-0087-9
+   </ELocationID>
+   <Abstract>
+    <AbstractText>
+     Optical tweezers, crowned by Nobel Prize the first time in 1990s, have widely impacted the research landscape of atom cooling, particle manipulation/sorting, and biology. After more than two decades of steady development, it received the deserving recognition once again in 2018. Unprecedented advancements across various disciplines are believed to be spurred furthermore by this important tool of optical manipulation.
+    </AbstractText>
+   </Abstract>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Qiu
+     </LastName>
+     <ForeName>
+      Cheng-Wei
+     </ForeName>
+     <Initials>
+      CW
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Department of Electrical and Computer Engineering, National University of Singapore, 4 Engineering Drive 3, Singapore, 117583 Singapore.
+      </Affiliation>
+      <Identifier Source="ISNI">
+       0000 0001 2180 6431
+      </Identifier>
+      <Identifier Source="GRID">
+       grid.4280.e
+      </Identifier>
+     </AffiliationInfo>
+    </Author>
+    <Author ValidYN="Y">
+     <LastName>
+      Zhou
+     </LastName>
+     <ForeName>
+      Lei-Ming
+     </ForeName>
+     <Initials>
+      LM
+     </Initials>
+     <Identifier Source="ORCID">
+      0000-0002-2534-5318
+     </Identifier>
+     <AffiliationInfo>
+      <Affiliation>
+       Department of Electrical and Computer Engineering, National University of Singapore, 4 Engineering Drive 3, Singapore, 117583 Singapore.
+      </Affiliation>
+      <Identifier Source="ISNI">
+       0000 0001 2180 6431
+      </Identifier>
+      <Identifier Source="GRID">
+       grid.4280.e
+      </Identifier>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016433">
+     News
+    </PublicationType>
+   </PublicationTypeList>
+   <ArticleDate DateType="Electronic">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     07
+    </Day>
+   </ArticleDate>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Light Sci Appl
+   </MedlineTA>
+   <NlmUniqueID>
+    101610753
+   </NlmUniqueID>
+   <ISSNLinking>
+    2047-7538
+   </ISSNLinking>
+  </MedlineJournalInfo>
+  <CoiStatement>
+   The authors declare that they have no conflict of interest.
+  </CoiStatement>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="received">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     13
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="accepted">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     10
+    </Month>
+    <Day>
+     21
+    </Day>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   epublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416722
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.1038/s41377-018-0087-9
+   </ArticleId>
+   <ArticleId IdType="pii">
+    87
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6220175
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 1986 Jul 21;57(3):314-317
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10034028
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 2010 Mar 12;104(10):103601
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20366423
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Light Sci Appl. 2017 Sep 22;6(9):e17039
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      30167291
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Science. 1995 Dec 8;270(5242):1653-7
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      7502073
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nature. 2003 Aug 14;424(6950):810-6
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      12917694
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nature. 1990 Nov 22;348(6299):348-52
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      2174512
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nat Commun. 2013;4:2374
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      23982323
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 2013 Feb 15;110(7):071105
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      25166367
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Science. 1987 Mar 20;235(4795):1517-20
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      3547653
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nature. 2003 Nov 27;426(6965):421-4
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      14647376
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Opt Express. 2010 Mar 29;18(7):6988-93
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20389718
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nature. 1987 Dec 24-31;330(6150):769-71
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      3320757
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Opt Lett. 1986 May 1;11(5):288
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      19730608
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Opt Lett. 2010 Nov 15;35(22):3847-9
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      21082017
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Biophys J. 1997 Mar;72(3):1335-46
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      9138579
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Light Sci Appl. 2017 May 05;6(5):e16258
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      30167251
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 1985 Jul 1;55(1):48-51
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      10031677
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 2011 Nov 11;107(20):203601
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      22181730
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Opt Lett. 1997 Jan 1;22(1):52-4
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      18183100
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Phys Rev Lett. 2010 Sep 3;105(10):101101
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      20867507
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Nat Phys. 2016 Jan;12(1):67-70
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27330541
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>

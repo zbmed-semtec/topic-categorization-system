@@ -1,0 +1,385 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416727
+  </PMID>
+  <DateRevised>
+   <Year>
+    2020
+   </Year>
+   <Month>
+    09
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Print">
+   <Journal>
+    <ISSN IssnType="Print">
+     2050-3369
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      7
+     </Volume>
+     <Issue>
+      3
+     </Issue>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Aug
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Arrhythmia &amp; electrophysiology review
+    </Title>
+    <ISOAbbreviation>
+     Arrhythm Electrophysiol Rev
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Do We Need an Implantable Cardioverter-defibrillator for Primary Prevention in Cardiac Resynchronisation Therapy Patients?
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     157-158
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.15420/aer.2018.7.3.EO1
+   </ELocationID>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Katritsis
+     </LastName>
+     <ForeName>
+      Demosthenes G
+     </ForeName>
+     <Initials>
+      DG
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Hygeia Hospital Athens, Greece.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+    <Author ValidYN="Y">
+     <LastName>
+      Auricchio
+     </LastName>
+     <ForeName>
+      Angelo
+     </ForeName>
+     <Initials>
+      A
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Fondazione Cardiocentro Ticino Lugano, Switzerland.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016428">
+     Journal Article
+    </PublicationType>
+    <PublicationType UI="D016454">
+     Review
+    </PublicationType>
+   </PublicationTypeList>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Arrhythm Electrophysiol Rev
+   </MedlineTA>
+   <NlmUniqueID>
+    101637930
+   </NlmUniqueID>
+   <ISSNLinking>
+    2050-3369
+   </ISSNLinking>
+  </MedlineJournalInfo>
+  <KeywordList Owner="NOTNLM">
+   <Keyword MajorTopicYN="N">
+    Cardiac resynchronisation therapy
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    implantable cardioverter-defibrillator
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    non-ischaemic cardiomyopathy
+   </Keyword>
+   <Keyword MajorTopicYN="N">
+    sudden cardiac death
+   </Keyword>
+  </KeywordList>
+  <CoiStatement>
+   Disclosure: The authors have no conflicts of interest to declare.
+  </CoiStatement>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   ppublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416727
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.15420/aer.2018.7.3.EO1
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6141914
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2016 Sep 29;375(13):1221-30
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27571011
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2004 May 20;350(21):2151-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15152060
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Am Coll Cardiol. 2017 Aug 8;70(6):776-803
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28461007
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Am Coll Cardiol. 2003 May 21;41(10):1707-12
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      12767651
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Eur Heart J. 2016 Jul 14;37(27):2129-2200
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27206819
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Ann Intern Med. 2014 May 6;160(9):603-11
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      24798523
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2002 Mar 21;346(12):877-83
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      11907286
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2010 Dec 16;363(25):2385-95
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      21073365
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2005 Jan 20;352(3):225-37
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15659722
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Europace. 2018 Sep 1;20(FI2):f148-f152
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29236981
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Heart Rhythm. 2018 Mar;15(3):460-468
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29107697
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2017 Jan 10;135(2):201-203
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27993908
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2004 May 20;350(21):2140-50
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      15152059
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     JACC Cardiovasc Imaging. 2016 Sep;9(9):1046-1055
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      27450871
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Arrhythm Electrophysiol Rev. 2017 Dec;6(4):159-160
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29326829
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2002 Mar 26;105(12):1453-8
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      11914254
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     J Am Coll Cardiol. 2017 Sep 5;70(10):1216-1227
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28859784
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     N Engl J Med. 2014 May 1;370(18):1694-701
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      24678999
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>

@@ -114,6 +114,8 @@ venv.bak/
 
 #Datasets
 *.tsv
+*.zip
+*.csv
 
 # Spyder project settings
 .spyderproject

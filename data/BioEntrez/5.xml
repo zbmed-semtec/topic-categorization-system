@@ -1,0 +1,199 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416725
+  </PMID>
+  <DateRevised>
+   <Year>
+    2020
+   </Year>
+   <Month>
+    09
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Print">
+   <Journal>
+    <ISSN IssnType="Print">
+     2050-3369
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      7
+     </Volume>
+     <Issue>
+      3
+     </Issue>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Aug
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Arrhythmia &amp; electrophysiology review
+    </Title>
+    <ISOAbbreviation>
+     Arrhythm Electrophysiol Rev
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Preprints and STM publishing: A New Challenge to the Editors of Scientific and Medical Journals.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     153
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.15420/aer.2018.7.3.FO
+   </ELocationID>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Katritsis
+     </LastName>
+     <ForeName>
+      Demosthenes G
+     </ForeName>
+     <Initials>
+      DG
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       Editor-in-Chief, Arrhythmia and Electrophysiology Review Hygeia Hospital Athens, Greece.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016421">
+     Editorial
+    </PublicationType>
+   </PublicationTypeList>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Arrhythm Electrophysiol Rev
+   </MedlineTA>
+   <NlmUniqueID>
+    101637930
+   </NlmUniqueID>
+   <ISSNLinking>
+    2050-3369
+   </ISSNLinking>
+  </MedlineJournalInfo>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   ppublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416725
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.15420/aer.2018.7.3.FO
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6141928
+   </ArticleId>
+  </ArticleIdList>
+  <ReferenceList>
+   <Reference>
+    <Citation>
+     Circulation. 2017 Sep 26;136(13):1177-1179
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      28912371
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2018 Apr 10;137(15):1641-1642
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29632158
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+   <Reference>
+    <Citation>
+     Circulation. 2018 Apr 10;137(15):1643-1644
+    </Citation>
+    <ArticleIdList>
+     <ArticleId IdType="pubmed">
+      29632159
+     </ArticleId>
+    </ArticleIdList>
+   </Reference>
+  </ReferenceList>
+ </PubmedData>
+</PubmedArticle>

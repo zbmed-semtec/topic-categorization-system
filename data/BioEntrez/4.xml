@@ -1,0 +1,167 @@
+<PubmedArticle>
+ <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+  <PMID Version="1">
+   30416726
+  </PMID>
+  <DateRevised>
+   <Year>
+    2020
+   </Year>
+   <Month>
+    09
+   </Month>
+   <Day>
+    30
+   </Day>
+  </DateRevised>
+  <Article PubModel="Print">
+   <Journal>
+    <ISSN IssnType="Print">
+     2050-3369
+    </ISSN>
+    <JournalIssue CitedMedium="Print">
+     <Volume>
+      7
+     </Volume>
+     <Issue>
+      3
+     </Issue>
+     <PubDate>
+      <Year>
+       2018
+      </Year>
+      <Month>
+       Aug
+      </Month>
+     </PubDate>
+    </JournalIssue>
+    <Title>
+     Arrhythmia &amp; electrophysiology review
+    </Title>
+    <ISOAbbreviation>
+     Arrhythm Electrophysiol Rev
+    </ISOAbbreviation>
+   </Journal>
+   <ArticleTitle>
+    Progress Continues in Our Quest to Cure All Types of Cardiac Arrhythmias with Catheter Ablation.
+   </ArticleTitle>
+   <Pagination>
+    <MedlinePgn>
+     156
+    </MedlinePgn>
+   </Pagination>
+   <ELocationID EIdType="doi" ValidYN="Y">
+    10.15420/aer.2018.7.3.GE1
+   </ELocationID>
+   <AuthorList CompleteYN="Y">
+    <Author ValidYN="Y">
+     <LastName>
+      Calkins
+     </LastName>
+     <ForeName>
+      Hugh
+     </ForeName>
+     <Initials>
+      H
+     </Initials>
+     <AffiliationInfo>
+      <Affiliation>
+       John Hopkins Medical Institution Baltimore, USA.
+      </Affiliation>
+     </AffiliationInfo>
+    </Author>
+   </AuthorList>
+   <Language>
+    eng
+   </Language>
+   <PublicationTypeList>
+    <PublicationType UI="D016421">
+     Editorial
+    </PublicationType>
+   </PublicationTypeList>
+  </Article>
+  <MedlineJournalInfo>
+   <Country>
+    England
+   </Country>
+   <MedlineTA>
+    Arrhythm Electrophysiol Rev
+   </MedlineTA>
+   <NlmUniqueID>
+    101637930
+   </NlmUniqueID>
+   <ISSNLinking>
+    2050-3369
+   </ISSNLinking>
+  </MedlineJournalInfo>
+ </MedlineCitation>
+ <PubmedData>
+  <History>
+   <PubMedPubDate PubStatus="entrez">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="pubmed">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     0
+    </Minute>
+   </PubMedPubDate>
+   <PubMedPubDate PubStatus="medline">
+    <Year>
+     2018
+    </Year>
+    <Month>
+     11
+    </Month>
+    <Day>
+     13
+    </Day>
+    <Hour>
+     6
+    </Hour>
+    <Minute>
+     1
+    </Minute>
+   </PubMedPubDate>
+  </History>
+  <PublicationStatus>
+   ppublish
+  </PublicationStatus>
+  <ArticleIdList>
+   <ArticleId IdType="pubmed">
+    30416726
+   </ArticleId>
+   <ArticleId IdType="doi">
+    10.15420/aer.2018.7.3.GE1
+   </ArticleId>
+   <ArticleId IdType="pmc">
+    PMC6141927
+   </ArticleId>
+  </ArticleIdList>
+ </PubmedData>
+</PubmedArticle>
