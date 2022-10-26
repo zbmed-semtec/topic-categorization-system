@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+{% if meshterm_list %}
+    <ul>
+    {% for meshterm in meshterm_list %}
+        <li><h3>{{ meshterm.meshterm_text }}</h3></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Mesh terms are available for the search.</p>
+{% endif %}
+
+{% endblock %}

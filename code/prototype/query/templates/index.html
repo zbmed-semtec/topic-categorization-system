@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+
+<div class="col-md-8 offset-md-2">
+    
+    <h3>Type :</h3>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ formurl }}
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Type :</h3>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ formtitleabstract }}
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+{% endblock %}

@@ -12,7 +12,7 @@ MeshListRaw = Bs_data.find("MeshHeadingList")
 MeshList = []
 for child in MeshListRaw:
     if child.find("DescriptorName", {'MajorTopicYN':'Y'}) != None:
-        MeshList.append(child.contents)
+        MeshList.append(child.find("DescriptorName").contents)
 
 for elem in MeshList:
     print(elem)
