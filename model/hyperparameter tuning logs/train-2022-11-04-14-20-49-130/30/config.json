@@ -1,0 +1,1 @@
+{"epochs": 8, "lr": 2.2527013371310244e-05, "dropout_rate": 0.0, "model_name": "emilyalsentzer/Bio_ClinicalBERT", "sample_frac": 0.1, "max_len": 347, "pre_classifier_size": 768, "batch_size": 20, "num_workers": 3, "save": false}

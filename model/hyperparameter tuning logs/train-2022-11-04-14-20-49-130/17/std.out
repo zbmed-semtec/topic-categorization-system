@@ -1,0 +1,152 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.7108650803565979
+Epoch: 1, Loss:  0.10349148511886597
+Epoch: 1, Loss:  0.06361950188875198
+Epoch: 1, Loss:  0.05901927128434181
+Epoch: 1, Loss:  0.05484422296285629
+Epoch: 1, Loss:  0.05542909726500511
+Epoch: 1, Loss:  0.0649600401520729
+Epoch: 1, Loss:  0.054066553711891174
+Epoch: 1, Loss:  0.0631934255361557
+Epoch: 1, Loss:  0.048201240599155426
+Epoch: 1, Loss:  0.04621879756450653
+Hamming Score = 0.20492476069880616
+Accuracy Score = 0.09971138465818206
+F1 Score (Micro) = 0.27863798222960445
+F1 Score (Macro) = 0.11536447010375162
+Hamming Loss = 0.01778102699052606
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.27863798222960445, "st_worker_timestamp": 1667688245.3743432, "st_worker_time": 4703.6170241039945, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.05185840651392937
+Epoch: 2, Loss:  0.057704292237758636
+Epoch: 2, Loss:  0.052687082439661026
+Epoch: 2, Loss:  0.04919200390577316
+Epoch: 2, Loss:  0.05905953794717789
+Epoch: 2, Loss:  0.045151785016059875
+Epoch: 2, Loss:  0.060369085520505905
+Epoch: 2, Loss:  0.04359765723347664
+Epoch: 2, Loss:  0.06768392026424408
+Epoch: 2, Loss:  0.056411270052194595
+Epoch: 2, Loss:  0.03671479970216751
+Hamming Score = 0.26969670703762083
+Accuracy Score = 0.1244001669100772
+F1 Score (Micro) = 0.35800762779677225
+F1 Score (Macro) = 0.19214410300426593
+Hamming Loss = 0.01732393118100097
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.35800762779677225, "st_worker_timestamp": 1667692832.8189223, "st_worker_time": 9291.061602624017, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.046009454876184464
+Epoch: 3, Loss:  0.03533018380403519
+Epoch: 3, Loss:  0.03706609085202217
+Epoch: 3, Loss:  0.052927661687135696
+Epoch: 3, Loss:  0.04866849631071091
+Epoch: 3, Loss:  0.044596053659915924
+Epoch: 3, Loss:  0.04642733559012413
+Epoch: 3, Loss:  0.03607478365302086
+Epoch: 3, Loss:  0.04885350540280342
+Epoch: 3, Loss:  0.03868996724486351
+Epoch: 3, Loss:  0.058065544813871384
+Hamming Score = 0.30656654837230674
+Accuracy Score = 0.1418214062174004
+F1 Score (Micro) = 0.4002405491561223
+F1 Score (Macro) = 0.25839831463188256
+Hamming Loss = 0.017199982501362874
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.4002405491561223, "st_worker_timestamp": 1667697423.6251044, "st_worker_time": 13881.867785240058, "st_worker_iter": 2}
+Epoch: 4, Loss:  0.04779184237122536
+Epoch: 4, Loss:  0.04259638488292694
+Epoch: 4, Loss:  0.03581647947430611
+Epoch: 4, Loss:  0.042406827211380005
+Epoch: 4, Loss:  0.03588224947452545
+Epoch: 4, Loss:  0.04020737484097481
+Epoch: 4, Loss:  0.04349806159734726
+Epoch: 4, Loss:  0.03901058807969093
+Epoch: 4, Loss:  0.041526466608047485
+Epoch: 4, Loss:  0.053280677646398544
+Epoch: 4, Loss:  0.04147957265377045
+Hamming Score = 0.31796410436354106
+Accuracy Score = 0.14700257319702345
+F1 Score (Micro) = 0.4110651895222241
+F1 Score (Macro) = 0.2769053659256508
+Hamming Loss = 0.017262798121812948
+
+[tune-metric]: {"epoch": 4, "val_acc": 0.4110651895222241, "st_worker_timestamp": 1667702012.837019, "st_worker_time": 18471.079701760085, "st_worker_iter": 3}
+Epoch: 5, Loss:  0.037896543741226196
+Epoch: 5, Loss:  0.052230969071388245
+Epoch: 5, Loss:  0.0483875498175621
+Epoch: 5, Loss:  0.03710136562585831
+Epoch: 5, Loss:  0.03295525908470154
+Epoch: 5, Loss:  0.04396931454539299
+Epoch: 5, Loss:  0.029508203268051147
+Epoch: 5, Loss:  0.04245983436703682
+Epoch: 5, Loss:  0.0603429414331913
+Epoch: 5, Loss:  0.04514864832162857
+Epoch: 5, Loss:  0.04042629897594452
+Hamming Score = 0.33845178002021314
+Accuracy Score = 0.14910633562834688
+F1 Score (Micro) = 0.4359738683421391
+F1 Score (Macro) = 0.3243506920040276
+Hamming Loss = 0.017722417773231122
+
+[tune-metric]: {"epoch": 5, "val_acc": 0.4359738683421391, "st_worker_timestamp": 1667706610.1753082, "st_worker_time": 23068.4179888441, "st_worker_iter": 4}
+Epoch: 6, Loss:  0.025419967249035835
+Epoch: 6, Loss:  0.026437312364578247
+Epoch: 6, Loss:  0.0245570819824934
+Epoch: 6, Loss:  0.03635715693235397
+Epoch: 6, Loss:  0.03470231220126152
+Epoch: 6, Loss:  0.03451819345355034
+Epoch: 6, Loss:  0.03896322473883629
+Epoch: 6, Loss:  0.03777819871902466
+Epoch: 6, Loss:  0.027838515117764473
+Epoch: 6, Loss:  0.03367076814174652
+Epoch: 6, Loss:  0.030456192791461945
+Hamming Score = 0.3370529127296809
+Accuracy Score = 0.14615063634466932
+F1 Score (Micro) = 0.433222423083305
+F1 Score (Macro) = 0.3267343056233529
+Hamming Loss = 0.01819970431790088
+
+[tune-metric]: {"epoch": 6, "val_acc": 0.433222423083305, "st_worker_timestamp": 1667711195.916593, "st_worker_time": 27654.159275639104, "st_worker_iter": 5}
+Epoch: 7, Loss:  0.0297253355383873
+Epoch: 7, Loss:  0.01906716451048851
+Epoch: 7, Loss:  0.02495218627154827
+Epoch: 7, Loss:  0.03260233253240585
+Epoch: 7, Loss:  0.03978763893246651
+Epoch: 7, Loss:  0.024392737075686455
+Epoch: 7, Loss:  0.019756168127059937
+Epoch: 7, Loss:  0.0325852707028389
+Epoch: 7, Loss:  0.028910372406244278
+Epoch: 7, Loss:  0.0316673219203949
+Epoch: 7, Loss:  0.02798035554587841
+Hamming Score = 0.34839465860290497
+Accuracy Score = 0.14971486195145697
+F1 Score (Micro) = 0.4443833088555841
+F1 Score (Macro) = 0.34765346976344186
+Hamming Loss = 0.01840651913969521
+
+[tune-metric]: {"epoch": 7, "val_acc": 0.4443833088555841, "st_worker_timestamp": 1667715791.62359, "st_worker_time": 32249.86627092003, "st_worker_iter": 6}
+Epoch: 8, Loss:  0.029895108193159103
+Epoch: 8, Loss:  0.02955481968820095
+Epoch: 8, Loss:  0.026004943996667862
+Epoch: 8, Loss:  0.028427917510271072
+Epoch: 8, Loss:  0.02852184884250164
+Epoch: 8, Loss:  0.016849089413881302
+Epoch: 8, Loss:  0.02700558491051197
+Epoch: 8, Loss:  0.024746960029006004
+Epoch: 8, Loss:  0.02453136257827282
+Epoch: 8, Loss:  0.026574943214654922
+Epoch: 8, Loss:  0.03322041407227516
+Hamming Score = 0.3443277328917846
+Accuracy Score = 0.14550733708881006
+F1 Score (Micro) = 0.44034082598902635
+F1 Score (Macro) = 0.3583794969807446
+Hamming Loss = 0.018778365178609487
+
+[tune-metric]: {"epoch": 8, "val_acc": 0.44034082598902635, "st_worker_timestamp": 1667720378.8584557, "st_worker_time": 36837.1011381431, "st_worker_iter": 7}

@@ -1,0 +1,50 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.6911517381668091
+Epoch: 1, Loss:  0.0576104037463665
+Epoch: 1, Loss:  0.056197866797447205
+Epoch: 1, Loss:  0.062490787357091904
+Epoch: 1, Loss:  0.051390837877988815
+Epoch: 1, Loss:  0.06108875945210457
+Epoch: 1, Loss:  0.058033157140016556
+Hamming Score = 0.18957476573661636
+Accuracy Score = 0.0896446206273037
+F1 Score (Micro) = 0.26420638050977774
+F1 Score (Macro) = 0.1110773934868908
+Hamming Loss = 0.018048133590877376
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.26420638050977774, "st_worker_timestamp": 1667762845.1004622, "st_worker_time": 1401.4265312149655, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.04822229593992233
+Epoch: 2, Loss:  0.04713481664657593
+Epoch: 2, Loss:  0.054552871733903885
+Epoch: 2, Loss:  0.05248439684510231
+Epoch: 2, Loss:  0.05095497518777847
+Epoch: 2, Loss:  0.052505530416965485
+Epoch: 2, Loss:  0.05470213294029236
+Hamming Score = 0.22217945825029073
+Accuracy Score = 0.10550107796091522
+F1 Score (Micro) = 0.3056138567925237
+F1 Score (Macro) = 0.17204859996485122
+Hamming Loss = 0.017627633488801996
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.3056138567925237, "st_worker_timestamp": 1667764135.5692904, "st_worker_time": 2691.895356212044, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.048783693462610245
+Epoch: 3, Loss:  0.04381081089377403
+Epoch: 3, Loss:  0.05108892545104027
+Epoch: 3, Loss:  0.041578445583581924
+Epoch: 3, Loss:  0.04571075364947319
+Epoch: 3, Loss:  0.0454622283577919
+Epoch: 3, Loss:  0.048711273819208145
+Hamming Score = 0.2719711519693263
+Accuracy Score = 0.12532164962792963
+F1 Score (Micro) = 0.3643420291619738
+F1 Score (Macro) = 0.22622080376037793
+Hamming Loss = 0.017567622137122013
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.3643420291619738, "st_worker_timestamp": 1667765424.8999722, "st_worker_time": 3981.2260436629876, "st_worker_iter": 2}

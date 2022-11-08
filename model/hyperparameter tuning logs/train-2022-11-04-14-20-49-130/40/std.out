@@ -1,0 +1,103 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.6861807703971863
+Epoch: 1, Loss:  0.07709220796823502
+Epoch: 1, Loss:  0.07740003615617752
+Epoch: 1, Loss:  0.05506577715277672
+Epoch: 1, Loss:  0.058953363448381424
+Epoch: 1, Loss:  0.06215954199433327
+Epoch: 1, Loss:  0.05583570897579193
+Epoch: 1, Loss:  0.05528664216399193
+Epoch: 1, Loss:  0.06092799827456474
+Epoch: 1, Loss:  0.04381674900650978
+Epoch: 1, Loss:  0.047978583723306656
+Epoch: 1, Loss:  0.06089746206998825
+Hamming Score = 0.207234855075456
+Accuracy Score = 0.09998956812017526
+F1 Score (Micro) = 0.2819954648526077
+F1 Score (Macro) = 0.12003803153059425
+Hamming Loss = 0.017758873267242327
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.2819954648526077, "st_worker_timestamp": 1667911795.2079353, "st_worker_time": 5926.650404440938, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.059569891542196274
+Epoch: 2, Loss:  0.059867020696401596
+Epoch: 2, Loss:  0.05419211834669113
+Epoch: 2, Loss:  0.047133900225162506
+Epoch: 2, Loss:  0.04841405898332596
+Epoch: 2, Loss:  0.05693722888827324
+Epoch: 2, Loss:  0.04824228957295418
+Epoch: 2, Loss:  0.04501068964600563
+Epoch: 2, Loss:  0.05146723613142967
+Epoch: 2, Loss:  0.05025070533156395
+Epoch: 2, Loss:  0.04604032635688782
+Epoch: 2, Loss:  0.04813966527581215
+Hamming Score = 0.2504103029961052
+Accuracy Score = 0.12033173377842687
+F1 Score (Micro) = 0.3367042207967225
+F1 Score (Macro) = 0.18515689255829407
+Hamming Loss = 0.017252983181117624
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.3367042207967225, "st_worker_timestamp": 1667917609.1840658, "st_worker_time": 11740.626535146032, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.04988830164074898
+Epoch: 3, Loss:  0.045658573508262634
+Epoch: 3, Loss:  0.06628535687923431
+Epoch: 3, Loss:  0.058314401656389236
+Epoch: 3, Loss:  0.04820845276117325
+Epoch: 3, Loss:  0.04991120845079422
+Epoch: 3, Loss:  0.04635718837380409
+Epoch: 3, Loss:  0.05955394357442856
+Epoch: 3, Loss:  0.05595770850777626
+Epoch: 3, Loss:  0.046559255570173264
+Epoch: 3, Loss:  0.04657683148980141
+Epoch: 3, Loss:  0.035803548991680145
+Hamming Score = 0.3106327107839731
+Accuracy Score = 0.14460324083733223
+F1 Score (Micro) = 0.40275388940590634
+F1 Score (Macro) = 0.2482367384342326
+Hamming Loss = 0.017186942651581945
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.40275388940590634, "st_worker_timestamp": 1667923428.6990368, "st_worker_time": 17560.14150542789, "st_worker_iter": 2}
+Epoch: 4, Loss:  0.03496326133608818
+Epoch: 4, Loss:  0.0382220484316349
+Epoch: 4, Loss:  0.03785533457994461
+Epoch: 4, Loss:  0.038459714502096176
+Epoch: 4, Loss:  0.037216488271951675
+Epoch: 4, Loss:  0.051259998232126236
+Epoch: 4, Loss:  0.04318647086620331
+Epoch: 4, Loss:  0.044674720615148544
+Epoch: 4, Loss:  0.02898920141160488
+Epoch: 4, Loss:  0.036576755344867706
+Epoch: 4, Loss:  0.04029539227485657
+Epoch: 4, Loss:  0.04372328519821167
+Hamming Score = 0.3339074886253062
+Accuracy Score = 0.14834133110786563
+F1 Score (Micro) = 0.4317212272260071
+F1 Score (Macro) = 0.31335280245974884
+Hamming Loss = 0.01751994956803044
+
+[tune-metric]: {"epoch": 4, "val_acc": 0.4317212272260071, "st_worker_timestamp": 1667929242.732815, "st_worker_time": 23374.17528376286, "st_worker_iter": 3}
+Epoch: 5, Loss:  0.03297077864408493
+Epoch: 5, Loss:  0.026519492268562317
+Epoch: 5, Loss:  0.036279890686273575
+Epoch: 5, Loss:  0.03426225110888481
+Epoch: 5, Loss:  0.043250247836112976
+Epoch: 5, Loss:  0.0429932102560997
+Epoch: 5, Loss:  0.03139282763004303
+Epoch: 5, Loss:  0.03523783013224602
+Epoch: 5, Loss:  0.03138773515820503
+Epoch: 5, Loss:  0.044167254120111465
+Epoch: 5, Loss:  0.03901861980557442
+Epoch: 5, Loss:  0.04390338808298111
+Hamming Score = 0.33299644355285396
+Accuracy Score = 0.1476458724528827
+F1 Score (Micro) = 0.4292551034203055
+F1 Score (Macro) = 0.31918826417008855
+Hamming Loss = 0.01775859284036532
+
+[tune-metric]: {"epoch": 5, "val_acc": 0.4292551034203055, "st_worker_timestamp": 1667935061.8381765, "st_worker_time": 29193.280644353945, "st_worker_iter": 4}

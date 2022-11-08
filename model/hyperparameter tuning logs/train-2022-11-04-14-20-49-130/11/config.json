@@ -1,0 +1,1 @@
+{"epochs": 8, "lr": 5e-06, "dropout_rate": 0.8911651563975017, "model_name": "dmis-lab/biobert-v1.1", "sample_frac": 0.1, "max_len": 350, "pre_classifier_size": 768, "batch_size": 19, "num_workers": 5, "save": false}

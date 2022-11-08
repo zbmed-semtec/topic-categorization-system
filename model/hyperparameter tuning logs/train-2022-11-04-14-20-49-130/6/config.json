@@ -1,0 +1,1 @@
+{"epochs": 8, "lr": 0.0001, "dropout_rate": 0.19494411129449737, "model_name": "distilbert-base-uncased", "sample_frac": 0.1, "max_len": 371, "pre_classifier_size": 768, "batch_size": 64, "num_workers": 5, "save": false}

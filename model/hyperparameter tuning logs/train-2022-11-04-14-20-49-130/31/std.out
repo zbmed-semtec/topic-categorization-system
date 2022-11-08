@@ -1,0 +1,44 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.7017321586608887
+Epoch: 1, Loss:  0.06721190363168716
+Epoch: 1, Loss:  0.0505126491189003
+Epoch: 1, Loss:  0.06201522424817085
+Epoch: 1, Loss:  0.05549297854304314
+Hamming Score = 0.16454899607544088
+Accuracy Score = 0.07891717087419153
+F1 Score (Micro) = 0.23504958160864772
+F1 Score (Macro) = 0.09849194276714995
+Hamming Loss = 0.01800887382809608
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.23504958160864772, "st_worker_timestamp": 1667832911.5206053, "st_worker_time": 2482.4590901399497, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.05682827904820442
+Epoch: 2, Loss:  0.05660351738333702
+Epoch: 2, Loss:  0.049187056720256805
+Epoch: 2, Loss:  0.05943601578474045
+Epoch: 2, Loss:  0.046161845326423645
+Hamming Score = 0.25032478108317874
+Accuracy Score = 0.11518533973155295
+F1 Score (Micro) = 0.33857760314341845
+F1 Score (Macro) = 0.192122306234466
+Hamming Loss = 0.01770180639777094
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.33857760314341845, "st_worker_timestamp": 1667835275.4788282, "st_worker_time": 4846.417311494937, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.05830736085772514
+Epoch: 3, Loss:  0.04779645428061485
+Epoch: 3, Loss:  0.04546337574720383
+Epoch: 3, Loss:  0.04796326532959938
+Epoch: 3, Loss:  0.04549551010131836
+Hamming Score = 0.27801068270502866
+Accuracy Score = 0.12791223311774114
+F1 Score (Micro) = 0.37130699333919565
+F1 Score (Macro) = 0.2476166443400834
+Hamming Loss = 0.017442832176852892
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.37130699333919565, "st_worker_timestamp": 1667837643.10633, "st_worker_time": 7214.044820499956, "st_worker_iter": 2}

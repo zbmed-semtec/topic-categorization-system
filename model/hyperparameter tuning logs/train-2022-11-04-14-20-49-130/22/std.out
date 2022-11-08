@@ -1,0 +1,53 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.6983898282051086
+Epoch: 1, Loss:  0.08349521458148956
+Epoch: 1, Loss:  0.07293543219566345
+Epoch: 1, Loss:  0.07506945729255676
+Epoch: 1, Loss:  0.06697707623243332
+Epoch: 1, Loss:  0.06124293804168701
+Epoch: 1, Loss:  0.05148696154356003
+Epoch: 1, Loss:  0.0721244066953659
+Hamming Score = 0.13544546511242736
+Accuracy Score = 0.06613811808887962
+F1 Score (Micro) = 0.19546496499597296
+F1 Score (Macro) = 0.07063488422080609
+Hamming Loss = 0.018208117124211158
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.19546496499597296, "st_worker_timestamp": 1667755370.6346433, "st_worker_time": 721.9343545740703, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.054898202419281006
+Epoch: 2, Loss:  0.04662519693374634
+Epoch: 2, Loss:  0.05651668459177017
+Epoch: 2, Loss:  0.06523989886045456
+Epoch: 2, Loss:  0.05658046156167984
+Epoch: 2, Loss:  0.05079612135887146
+Epoch: 2, Loss:  0.05420198291540146
+Epoch: 2, Loss:  0.06329630315303802
+Hamming Score = 0.19190366930169764
+Accuracy Score = 0.09294804923847277
+F1 Score (Micro) = 0.26782727467401307
+F1 Score (Macro) = 0.11996914140832542
+Hamming Loss = 0.01773798146490514
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.26782727467401307, "st_worker_timestamp": 1667755977.496779, "st_worker_time": 1328.7964908680879, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.053967155516147614
+Epoch: 3, Loss:  0.04952871799468994
+Epoch: 3, Loss:  0.043889787048101425
+Epoch: 3, Loss:  0.06550848484039307
+Epoch: 3, Loss:  0.04619297385215759
+Epoch: 3, Loss:  0.04822487011551857
+Epoch: 3, Loss:  0.05605356767773628
+Epoch: 3, Loss:  0.04255302995443344
+Hamming Score = 0.2481831215492284
+Accuracy Score = 0.11732387509562557
+F1 Score (Micro) = 0.3376588884580449
+F1 Score (Macro) = 0.18208789380343285
+Hamming Loss = 0.01748363428745774
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.3376588884580449, "st_worker_timestamp": 1667756582.5776708, "st_worker_time": 1933.87738713203, "st_worker_iter": 2}

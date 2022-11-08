@@ -1,0 +1,96 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.6863828897476196
+Epoch: 1, Loss:  0.07755308598279953
+Epoch: 1, Loss:  0.06315311044454575
+Epoch: 1, Loss:  0.062039852142333984
+Hamming Score = 0.15966558593827523
+Accuracy Score = 0.07736977536685444
+F1 Score (Micro) = 0.22653709992052598
+F1 Score (Macro) = 0.08250272712956624
+Hamming Loss = 0.018012659590935707
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.22653709992052598, "st_worker_timestamp": 1667615542.756742, "st_worker_time": 2101.4201929160627, "st_worker_iter": 0}
+Epoch: 2, Loss:  0.05567357316613197
+Epoch: 2, Loss:  0.048751287162303925
+Epoch: 2, Loss:  0.05871773511171341
+Epoch: 2, Loss:  0.058745384216308594
+Hamming Score = 0.23139239185947927
+Accuracy Score = 0.1085958689755894
+F1 Score (Micro) = 0.3197759323437738
+F1 Score (Macro) = 0.18307275019003738
+Hamming Loss = 0.017503123955409882
+
+[tune-metric]: {"epoch": 2, "val_acc": 0.3197759323437738, "st_worker_timestamp": 1667617534.6987896, "st_worker_time": 4093.362236318062, "st_worker_iter": 1}
+Epoch: 3, Loss:  0.05430380627512932
+Epoch: 3, Loss:  0.051146309822797775
+Epoch: 3, Loss:  0.052047960460186005
+Epoch: 3, Loss:  0.042453180998563766
+Hamming Score = 0.27582232997161016
+Accuracy Score = 0.1256867654217957
+F1 Score (Micro) = 0.37069000363798055
+F1 Score (Macro) = 0.23002978156159287
+Hamming Loss = 0.017463303338874567
+
+[tune-metric]: {"epoch": 3, "val_acc": 0.37069000363798055, "st_worker_timestamp": 1667619526.1655798, "st_worker_time": 6084.829023719067, "st_worker_iter": 2}
+Epoch: 4, Loss:  0.04623929411172867
+Epoch: 4, Loss:  0.04314730316400528
+Epoch: 4, Loss:  0.04921324551105499
+Epoch: 4, Loss:  0.04716968536376953
+Hamming Score = 0.2810662559867129
+Accuracy Score = 0.12951178802420196
+F1 Score (Micro) = 0.3773261007340722
+F1 Score (Macro) = 0.26015197370936116
+Hamming Loss = 0.01749541221629213
+
+[tune-metric]: {"epoch": 4, "val_acc": 0.3773261007340722, "st_worker_timestamp": 1667621514.682086, "st_worker_time": 8073.345534689026, "st_worker_iter": 3}
+Epoch: 5, Loss:  0.04343356192111969
+Epoch: 5, Loss:  0.037420760840177536
+Epoch: 5, Loss:  0.039942748844623566
+Epoch: 5, Loss:  0.03885833919048309
+Hamming Score = 0.30379317723100324
+Accuracy Score = 0.13780513248487378
+F1 Score (Micro) = 0.39696665231328643
+F1 Score (Macro) = 0.27409179927182536
+Hamming Loss = 0.017672501789123475
+
+[tune-metric]: {"epoch": 5, "val_acc": 0.39696665231328643, "st_worker_timestamp": 1667623508.930232, "st_worker_time": 10067.593678681995, "st_worker_iter": 4}
+Epoch: 6, Loss:  0.03805315122008324
+Epoch: 6, Loss:  0.03917050361633301
+Epoch: 6, Loss:  0.04019998386502266
+Epoch: 6, Loss:  0.04215070977807045
+Hamming Score = 0.30804776988664945
+Accuracy Score = 0.13898741219834482
+F1 Score (Micro) = 0.4038144089531359
+F1 Score (Macro) = 0.298065270186701
+Hamming Loss = 0.017926568539693863
+
+[tune-metric]: {"epoch": 6, "val_acc": 0.4038144089531359, "st_worker_timestamp": 1667625500.562125, "st_worker_time": 12059.22560038406, "st_worker_iter": 5}
+Epoch: 7, Loss:  0.03786822780966759
+Epoch: 7, Loss:  0.028277549892663956
+Epoch: 7, Loss:  0.03682737797498703
+Epoch: 7, Loss:  0.03310849517583847
+Hamming Score = 0.3269067505506062
+Accuracy Score = 0.13982196258432436
+F1 Score (Micro) = 0.42414555645567403
+F1 Score (Macro) = 0.3339865535883229
+Hamming Loss = 0.018438768230551274
+
+[tune-metric]: {"epoch": 7, "val_acc": 0.42414555645567403, "st_worker_timestamp": 1667627493.6551757, "st_worker_time": 14052.31862054905, "st_worker_iter": 6}
+Epoch: 8, Loss:  0.030087385326623917
+Epoch: 8, Loss:  0.02701135352253914
+Epoch: 8, Loss:  0.027740826830267906
+Epoch: 8, Loss:  0.029084570705890656
+Hamming Score = 0.3228055480115777
+Accuracy Score = 0.13749217609013145
+F1 Score (Micro) = 0.41937829564702456
+F1 Score (Macro) = 0.33499810211593234
+Hamming Loss = 0.01869676095739979
+
+[tune-metric]: {"epoch": 8, "val_acc": 0.41937829564702456, "st_worker_timestamp": 1667629485.6292555, "st_worker_time": 16044.292699618964, "st_worker_iter": 7}

@@ -1,0 +1,22 @@
+loading dataset...
+dataset loaded!
+sampling dataset...
+dataset sampled!
+FULL Dataset: (287580, 2)
+TRAIN Dataset: (230064, 2)
+TEST Dataset: (57516, 2)
+Starting Training!
+Epoch: 1, Loss:  0.8334023952484131
+Epoch: 1, Loss:  0.10799093544483185
+Epoch: 1, Loss:  0.08273886889219284
+Epoch: 1, Loss:  0.08108127117156982
+Epoch: 1, Loss:  0.06677786260843277
+Epoch: 1, Loss:  0.07420309633016586
+Epoch: 1, Loss:  0.09378191828727722
+Hamming Score = 0.01672195838949438
+Accuracy Score = 0.006867654217956743
+F1 Score (Micro) = 0.03328423094887364
+F1 Score (Macro) = 0.006011286492457017
+Hamming Loss = 0.018863334522343293
+
+[tune-metric]: {"epoch": 1, "val_acc": 0.03328423094887364, "st_worker_timestamp": 1667658979.127907, "st_worker_time": 1218.0558791839285, "st_worker_iter": 0}
