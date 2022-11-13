@@ -2,7 +2,7 @@ from os.path import exists
 from syne_tune.report import Reporter
 from argparse import ArgumentParser
 from torch import cuda
-from transformers import BertTokenizer, BertModel, DistilBertTokenizer, DistilBertModel
+from transformers import BertTokenizerFast, BertModel, DistilBertTokenizerFast, DistilBertModel
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 import torch
 from sklearn import metrics
@@ -146,8 +146,7 @@ def train(epoch, model, training_loader, optimizer, device, model_name, save):
         loss = loss_fn(outputs, targets)
         if _ % 1000 == 0:
             print(f'Epoch: {epoch}, Loss:  {loss.item()}')
-            # if save:
-            #   torch.save(model.state_dict(), model_name+'.bin')
+            torch.save(model.state_dict(), 'checkpoint.bin')
         loss.backward()
         optimizer.step()
 
@@ -204,8 +203,8 @@ if __name__ == '__main__':
     report = Reporter()
 
     device = 'cuda' if cuda.is_available() else 'cpu'
-    tokenizer = DistilBertTokenizer.from_pretrained(
-        args.model_name) if "distilbert" in args.model_name else BertTokenizer.from_pretrained(args.model_name)
+    tokenizer = DistilBertTokenizerFast.from_pretrained(
+        args.model_name) if "distilbert" in args.model_name else BertTokenizerFast.from_pretrained(args.model_name)
 
     df = load_dataset(args.sample_frac)
     train_data, test_data = get_train_test(df)
@@ -226,24 +225,24 @@ if __name__ == '__main__':
     train_params = {'batch_size': args.batch_size,
                     'shuffle': True,
                     'num_workers': args.num_workers,
-
+                    'pin_memory': True
                     }
 
     test_params = {'batch_size': args.batch_size,
                    'shuffle': True,
                    'num_workers': args.num_workers,
-
+                    'pin_memory': True
                    }
 
     training_loader = DataLoader(training_set, **train_params)
     testing_loader = DataLoader(testing_set, **test_params)
 
-    # if not exists(args.model_name+'.bin') and args.save:
-    #     torch.save(model.state_dict(), args.model_name+'.bin')
+    if not exists('checkpoint.bin'):
+        torch.save(model.state_dict(), 'checkpoint.bin')
 
-    # if args.save:
-    #     model.load_state_dict(torch.load(args.model_name+'.bin'))
+    model.load_state_dict(torch.load('checkpoint.bin'))
 
+    best_f1 = 0
     print("Starting Training!")
     for epoch in range(1, args.epochs+1):
         train(epoch, model, training_loader,
@@ -252,5 +251,7 @@ if __name__ == '__main__':
         outputs, targets = validation(testing_loader, model)
         final_outputs = np.array(outputs) >= 0.5
         validate(targets, final_outputs)
-        val_acc = metrics.f1_score(targets, final_outputs, average='micro')
-        report(epoch=epoch, val_acc=val_acc)
+        val_f1 = metrics.f1_score(targets, final_outputs, average='micro')
+        if val_f1 > best_f1:
+            best_f1 = val_f1
+            torch.save(model.state_dict(), 'best.bin')

@@ -1,0 +1,9 @@
+body{
+  max-width: 1000px;
+  padding-top: 24px;
+  margin: auto;
+}
+
+#pmid, #article{
+  margin-top: 24px;
+}
